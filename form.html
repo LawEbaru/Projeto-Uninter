@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Guia de Contato</title>
+        <link rel="stylesheet" href="estiloform.css">
+    </head>
+    <body>
+        <main>
+        <div class="container">
+            <h2>Acesso ao Contato</h2>
+            <form id="formContato" action="#" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required> <!--Nome para salvar-->
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required> <!--Email para salvar-->
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea> <!--Salvar a mensagem escrita-->
+                </div> 
+                <div class="form-group">
+                    <button type="submit">Enviar</button> <!--Seleção para salvar-->
+                </div>
+            </form>
+        </main>
+        </div>
+        <div class="volte">
+            <a href="index.html">Voltar para a página inicial</a>
+        </div>
+        <div id="mensagem" style="display: none;">
+            <p>Sucesso na mensagem enviada!</p>
+            <a href="index.html">Voltar para o formulário</a>
+        </div>
+    </body>
+</html>
