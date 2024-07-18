@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #064b79;
+    background-color: #180157;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -32,14 +32,14 @@ section {
 
 section h2 {
     font-size: 24px;
-    color: #064b79; 
-    border-bottom: 2px solid #064b79; 
+    color: #180157; 
+    border-bottom: 2px solid #180157; 
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
 
 footer {
-    background-color: #064b79; 
+    background-color: #180157; 
     color: #fff;
     text-align: center;
     padding: 5px 0;
